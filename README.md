@@ -2,16 +2,25 @@
 
 ## Q1. For each member in your team, provide 1 paragraph detailing what parts of the lab that member implemented / researched.
 
-- ## Mohaimin Iqbal Gazi
-  -
-  -
-  -
-  -
-- ## Hemang Huria
-  -
-  -
-  -
-  -
+
+- ## Mohaimin Iqbal Gazi(017454489)
+  - Created virtual machine on Google Cloud engine
+  - Installed new modules after building the kernel and then reloading the kernel
+  - Researched the part of the codebase gone through by the Professor, to implement cpuid 0x4FFFFFFC and 0x4FFFFFFD.
+  - Made code changes to vmx.c
+  - Used rmmod to to install new modules after compiling the new code change
+  - Modprobe to VM
+  - Solved the observation questions by running tests and gathering insights from the results along with Hemang
+
+- ## Hemang Huria(016123146)
+  - Created VM inside a VM.
+  - For some reasons, we were unable to create VM inside a VM in conventional way, so figured out a way to use Chrome Remote Desktop client after hours of research
+  - Wrote test scripts to test the newly added cpuid functionality and verify things are working as expected
+  - Took decision to use virt-manager after doing some research.
+  - Improved the doc and suggested we cut the clutter by removing redundant screenshots because all the great open-source tool documentations rightfully do not provide screenshots when demonstrating step by step instructions.
+  - Solved the observation questions by running tests and gathering insights from the results along with Mohaimin
+
+
 
 ## Q2. Describe in detail the steps you used to complete the assignment.
 
